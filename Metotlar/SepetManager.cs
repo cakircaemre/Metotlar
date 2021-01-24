@@ -9,13 +9,13 @@ namespace Metotlar
 
         public void Ekle(Urun urun)
         {
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + Urun.Adi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + urun.Adi);
 
         }
 
-        public void Ekle2(string urun.Adi, string Aciklama, double Fiyati, int stokAdedi)
+        public void Ekle2(string urunAdi, string Aciklama, double Fiyati, int stokAdedi)
         {
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + Urun.Adi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + urunAdi + Fiyati + stokAdedi );
 
         }
 
